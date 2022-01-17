@@ -26,14 +26,14 @@ rad = st.sidebar.radio('Pages:',['About KPrototypes','Data Clustering'])
 # About KPrototypes ************************************************************************
 if rad == 'About KPrototypes':
     st.header('Clustering Mixed Data Types Using K-Prototypes')
-    st.image('cluster.jpg', width=700)
+    st.image('cluster.jpg', use_column_width = 'always')
     st.markdown(
         """This web app finds the clusters of a dataset made up of both numeric and categorical data using
         **K-Prototypes**. It is a combination of both **K-means** (for numeric features) and **K-modes** (for
          categorical features). **K-means** utilizes the euclidean distance to compute the clusters--the lesser
           the distance between points, the more similar the data points are. It is derived as follows:""")
 
-    st.image('euclidean.png')
+    st.image('euclidean.png', use_column_width = 'always')
 
     st.markdown(
         """For **K-modes**, it clusters categorical (non-numeric) data by using dissimilarities between data points.
