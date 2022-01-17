@@ -136,7 +136,7 @@ if rad == 'Data Clustering':
     st.markdown("""
                 **K-Prototypes** will now be initiated for the data. To define the parameter of the model, 
                 select the number of clusters to be used by using the slider. The number of clusters would define
-                the number of groups the data points""")
+                the number of groups for the data points""")
 
 
 
